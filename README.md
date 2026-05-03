@@ -23,17 +23,17 @@ Download the required datasets and place them in the specified directories:
 ```bash
 
 # Standard Training & Testing VQA v2
-bash HyLoVQA-main/scripts/HYLOVQA_train.sh 1      
-bash HyLoVQA-main/scripts/HYLOVQA.sh 1            
+bash scripts/HYLOVQA_train.sh 1      
+bash scripts/HYLOVQA.sh 1            
 
 # Novel Composition Training & Testing VQA v2
-bash HyLoVQA-main/scripts/HYLOVQA_NOV_train.sh 1  
-bash HyLoVQA-main/scripts/HYLOVQA_NOV.sh 1        
+bash scripts/HYLOVQA_NOV_train.sh 1  
+bash scripts/HYLOVQA_NOV.sh 1        
 
 # Standard Training & Testing NExT-QA
-bash HyLoVQA-main/nextqa/train.sh 1    
+bash nextqa/train.sh 1    
 
 # Novel Composition Training & Testing NExT-QA
-bash HyLoVQA-main/nextqa/train_nov.sh 1
+bash nextqa/train_nov.sh 1
 
 ```
